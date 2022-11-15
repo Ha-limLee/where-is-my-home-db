@@ -1,6 +1,6 @@
 use housedata2;
 
-insert into member
+insert into member (user_id, user_name, user_password, address, phone_number, authority)
 values('ssafy', 'ssafy', '0000', '경기 성남시 분당구 삼평동 681', '010-0000-0000', 'admin'),
 ('seojeong', 'seojeong', '0000', '경기 시흥시 신천동 734-6', '010-0000-0000', 'user'),
 ('alex', 'alex', '0000', '경기 시흥시 배곧동 204','010-0000-0000', 'user'),
